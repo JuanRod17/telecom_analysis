@@ -1,6 +1,7 @@
 Objetivo del proyecto
 Analizar el comportamiento de los clientes de ConnectaTel (empresa con operaciones en México y Colombia) utilizando datos reales de uso de servicios móviles (llamadas y mensajes) hasta el año 2024. El propósito principal es identificar patrones de consumo, detectar comportamientos atípicos (outliers), y comprender qué segmentos de usuarios muestran necesidades diferenciadas para optimizar la oferta comercial, mejorar la retención y diseñar estrategias de migración de planes.
 
+
 Datasets utilizados
 El proyecto integra y procesa información proveniente de tres fuentes principales:
 
@@ -9,6 +10,7 @@ plans.csv: Catálogo de planes actuales que incluye detalles de precios, minutos
 users_latam.csv: Información demográfica y de registro de los clientes (edad, ciudad, fecha de registro, plan contratado y fecha de baja o churn).
 
 usage.csv: Detalle transaccional del uso real de los servicios móviles (tipo de interacción, fecha, duración de llamadas y longitud de mensajes).
+
 
 Etapas del análisis realizadas
 El desarrollo del proyecto se estructuró en un flujo de pensamiento programático dividido en 8 pasos principales:
@@ -29,13 +31,14 @@ Insight ejecutivo: Estructuración de conclusiones de negocio y recomendaciones 
 
 Publicación y versionado: Documentación y estructuración del repositorio en GitHub.
 
-Cómo ejecutar el notebook en Google Colab
 
+Cómo ejecutar el notebook en Google Colab
 Sube tu archivo .ipynb a tu unidad de Google Drive o ábrelo directamente desde tu repositorio de GitHub usando Google Colab.
 
 Asegúrate de contar con la estructura de carpetas correcta o ajusta las rutas de lectura de los archivos CSV según corresponda (/datasets/plans.csv, etc.).
 
 Ejecuta las celdas secuencialmente de arriba hacia abajo (Runtime > Run All).
+
 
 Guía de reproducción
 Verifica que los archivos fuente (plans.csv, users_latam.csv, usage.csv) estén ubicados en la ruta especificada en el código o cárgalos en tu entorno de trabajo.
